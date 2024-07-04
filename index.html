@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit Table</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+
+        <table class="main" border="n">
+            <tr>
+                <th>DATE</th>
+                <th>M</th>
+                <th>N</th>
+                <th>W.O.T.</th>
+                <th>W.K.TIME</th>
+            </tr>
+<form id="form">
+
+        <tr id="ro-hit">
+        <!-- Date section -->
+                <td id="date"><input type="date" name="date" id="date" required></td>
+                
+                <!-- M section -->
+                <td><input type="number" name="msection" id="msection" required></td>
+
+                <!-- N section -->
+                <td><input type="number" name="nsection" required></td>
+
+                <!-- WorK.ouT. Section -->
+                <td>
+                        <input type="number" name="wt" required>
+                    </td>
+                    
+                    <!-- Wk -->
+                    <td><input type="time" name="wtime" required></td>
+                    
+                </tr>
+                
+                <!-- ----------------------------- button secttion  ------------------->
+            
+            <div class="bbtn">
+                <input type="submit" value="Save" class="btn" id="btnsubmit">
+            </div>
+        </form>
+        </table>
+
+
+        <div class="table">
+            <table class="main main2" border="n" id="form2">
+
+            </table>
+
+        </div>
+        
+    </div>
+</body>
+</html>
